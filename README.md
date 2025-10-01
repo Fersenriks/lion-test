@@ -69,3 +69,65 @@ src/
 │   └── getPaginatedData.js # Lógica de paginación
 └── ...
 ```
+### Filtrado Inteligente
+La implementación utiliza React Router para manejar los parámetros de filtrado directamente en la URL (https://example.com/price). Esto permite:
+
+Compartir enlaces con filtros específicos
+
+Mantener el estado al actualizar la página
+
+Navegación predictiva del usuario
+
+Para resetear: simplemente haz clic nuevamente en el botón activo para deshabilitarlo.
+
+### Paginación 
+Sistema de paginación desarrollado con funcionalidad nativa de React:
+
+Divide grandes volúmenes de datos en páginas manejables
+
+Interfaz intuitiva de navegación
+
+Sin dependencias de librerías externas
+
+### Búsqueda Multidimensional
+El campo de búsqueda filtra propiedades basándose en múltiples criterios:
+
+Título de la propiedad
+
+Tipo de vivienda
+
+Referencia única
+
+Características especiales
+
+Ubicación de oficinas
+
+### Modal
+Sistema de modal implementado con useContext que:
+
+Muestra información detallada de la propiedad seleccionada
+
+Preserva el contexto de la aplicación
+
+Proporciona una experiencia de usuario fluida
+
+### Adaptación Móvil
+Para dispositivos móviles, la aplicación:
+
+Reemplaza la vista de tabla por tarjetas informativas
+
+Optimiza la interacción táctil
+
+Mantiene todas las funcionalidades en una experiencia mobile-first
+
+### React Icons
+Debido a la imposibilidad de acceder a los recursos gráficos originales del diseño, se implementó **React Icons** como solución para:
+- **Amplia variedad de iconos** disponibles
+- **Fácil integración** con componentes React
+- **Renderizado consistente** en todos los dispositivos
+
+### clsx para Estilos Condicionales
+La librería **clsx** se utiliza para:
+- **Mejorar la legibilidad** del código
+- **Manejar condiciones complejas** de estilos
+- **Mantener un código CSS** mantenible y escalable
