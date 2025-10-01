@@ -69,7 +69,7 @@ src/
 │   └── getPaginatedData.js # Lógica de paginación
 └── ...
 ```
-### Filtrado Inteligente
+### Filtrado
 La implementación utiliza React Router para manejar los parámetros de filtrado directamente en la URL (https://example.com/price). Esto permite:
 
 Compartir enlaces con filtros específicos
