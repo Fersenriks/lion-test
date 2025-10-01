@@ -1,16 +1,42 @@
-# React + Vite
+# Lion Frontend - Lista de Propiedades
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación moderna y responsive para la gestión y visualización de listados de propiedades inmobiliarias, desarrollada con React y Vite.
 
-Currently, two official plugins are available:
+## Características Principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Filtrado avanzado** mediante parámetros en la URL
+- **Paginación** personalizada sin dependencias externas
+- **Búsqueda en tiempo real** por múltiples criterios
+- **Modal dinámico** para detalles de propiedades
+- **Diseño completamente responsive** con adaptación móvil
+- **Gestión de estado** con React Context API
 
-## React Compiler
+## Tecnologías Utilizadas
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** - Biblioteca principal para la interfaz de usuario
+- **Vite** - Herramienta de construcción y entorno de desarrollo
+- **Tailwind CSS v4** - Framework de estilos utilitarios
+- **React Router** - Navegación y manejo de rutas
+- **React Icons** - Librería de iconos
+- **clsx** - Utilidad para manejo condicional de clases CSS
 
-## Expanding the ESLint configuration
+## Instalación y Configuración
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerrequisitos
+- Node.js (versión 14 o superior)
+- npm o yarn
+
+### Pasos de instalación
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/Fersenriks/lion-test
+
+# Navegar al directorio del proyecto
+cd lion-test
+
+# Instalar dependencias
+npm install
+
+# Ejecutar en modo desarrollo
+npm run dev
