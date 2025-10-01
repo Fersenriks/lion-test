@@ -43,7 +43,7 @@ npm run dev
 
 ```
 ### Estructura del Proyecto
-
+```bash
 src/
 ├── components/
 │   ├── features/          # Componentes funcionales principales
@@ -68,3 +68,4 @@ src/
 │   ├── formatNumber.js    # Formateador de números monetarios
 │   └── getPaginatedData.js # Lógica de paginación
 └── ...
+```
