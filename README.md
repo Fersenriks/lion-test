@@ -40,3 +40,30 @@ npm install
 
 # Ejecutar en modo desarrollo
 npm run dev
+
+### Estructura del Proyecto
+
+src/
+├── components/
+│   ├── features/          # Componentes funcionales principales
+│   │   └── pagination/    # Paginador personalizado
+│   ├── layout/            # Componentes de estructura UI
+│   │   ├── header/        # Encabezado de la aplicación
+│   │   ├── sidebar/       # Barra lateral de navegación
+│   │   ├── table/         # Componentes de tabla
+│   │   └── modal/         # Componentes de modal
+│   └── ui/                # Componentes reutilizables
+│       ├── Button.jsx     # Botones personalizados
+│       ├── Input.jsx      # Campos de entrada
+│       └── MobileCard.jsx # Tarjetas para vista móvil
+├── context/
+│   └── ModalContext.jsx   # Gestión de estado para modales
+├── data/
+│   └── db.json            # Base de datos falsa con propiedades
+├── pages/
+│   └── properties/        # Páginas principales de la aplicación
+├── utils/
+│   ├── capitalize.js      # Utilidad para capitalizar texto
+│   ├── formatNumber.js    # Formateador de números monetarios
+│   └── getPaginatedData.js # Lógica de paginación
+└── ...
