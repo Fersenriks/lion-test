@@ -131,3 +131,10 @@ La librería **clsx** se utiliza para:
 - **Mejorar la legibilidad** del código
 - **Manejar condiciones complejas** de estilos
 - **Mantener un código CSS** mantenible y escalable
+
+##Decisiones Técnicas
+###Paginación
+Enfrenté un problema con la paginación donde, al cambiar de página, el estado almacenaba datos incorrectos y la interfaz no mostraba lo esperado. Para resolverlo, implementé una solución utilizando funcionalidad pura de React y JavaScript. La herramienta React DevTools fue clave para depurar y rastrear el estado y los efectos a lo largo de la jerarquía de la aplicación.
+
+###Filtrado
+Al evaluar distintas opciones para implementar el filtrado, opté por una solución que utiliza react-router. Por ejemplo, una URL como https://example.com/price permite filtrar la lista por precio. Esta aproximación tiene la ventaja de preservar el estado del filtro incluso al actualizar la página, mejorando la experiencia de usuario.
