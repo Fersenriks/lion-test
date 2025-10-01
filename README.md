@@ -138,3 +138,13 @@ Enfrenté un problema con la paginación donde, al cambiar de página, el estado
 
 ### Filtrado
 Al evaluar distintas opciones para implementar el filtrado, opté por una solución que utiliza react-router. Por ejemplo, una URL como https://example.com/price permite filtrar la lista por precio. Esta aproximación tiene la ventaja de preservar el estado del filtro incluso al actualizar la página, mejorando la experiencia de usuario.
+
+### Mejoras
+Me gustaria implementar autorización con Firebase. Y integrar base de datos luego ampliarla.
+
+Nuevas paginas, como Dashbord con información de la venta.
+
+Una mapa interactiva con ubicaciones de las viviendas y descripción principal.
+
+Integrar State Manager (Redux).
+
